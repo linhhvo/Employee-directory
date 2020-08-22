@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Nunito:400,500,700|Dosis:300|Catamaran:200,300" rel="stylesheet" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Employee Directory</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="title">Awesome startup employee directory</h1>
+			<input type="text" id="search" class="search" placeholder="Search employee..." />
+		</header>
+
+		<main>
+			<div class="grid-container" id="directory"></div>
+			<div class="overlay" id="overlay">
+				<div class="modal">
+					<button class="btn close">x</button>
+					<button class="btn previous"><</button>
+					<div class="modal-content"></div>
+					<button class="btn next">></button>
+				</div>
+			</div>
+		</main>
+		<script src="js/app.js"></script>
+	</body>
+</html>
