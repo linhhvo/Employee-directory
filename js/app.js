@@ -49,7 +49,7 @@ function displayModal(data, index) {
 	const emailFormat = data.email;
 	const locationFormat = `${data.location.city}, ${data.location.country}`;
 	const phoneFormat = data.cell;
-	const addressFormat = `${data.location.street.number} ${data.location.street.name}, ${data.location.city}, ${data.location.state} ${data.location.postcode}`;
+	const addressFormat = `${data.location.street.number} ${data.location.street.name},<br> ${data.location.city}, ${data.location.state} ${data.location.postcode}`;
 	const dobFormat = new Date(data.dob.date).toLocaleDateString('en-US');
 
 	const employeeModal = `
