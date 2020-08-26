@@ -1,2 +1,2 @@
-# techdegree-project-8
+# Employee directory
 Use an API to Create an Employee Directory
